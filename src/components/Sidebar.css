@@ -1,0 +1,27 @@
+.side-items {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 5px 0;
+}
+.sidebar {
+  position: fixed;
+  width: 250px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: azure;
+}
+
+.menu_icon {
+  cursor: pointer;
+}
+.sidebar ul li {
+  list-style: none;
+  padding: 5px;
+  text-align: center;
+}
+.fend {
+  display: flex;
+  justify-content: flex-end;
+}

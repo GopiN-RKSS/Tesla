@@ -1,0 +1,17 @@
+.bg-image {
+  width: 100%;
+  height: 100vh;
+  /* background-image: ${ props => `url('/images/${props.bg_image}')`}; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btm {
+  margin-top: 400px;
+}
+.btnbutton {
+  text-transform: uppercase;
+  font-weight: 700px;
+  color: white;
+}
